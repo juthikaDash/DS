@@ -29,10 +29,9 @@ The number of nodes in the list is sz.
 
 
 */
-
-//Definition for singly-linked list.
 #include<iostream>
 using namespace std;
+//Definition for singly-linked list.
   struct ListNode {
       int val;
       ListNode *next;
