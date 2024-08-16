@@ -40,7 +40,6 @@ Follow up: Can you solve it using O(1) (i.e. constant) memory?
 */
  
 #include<iostream>
-#include<vector>
 
 using namespace std;
  // Definition for singly-linked list.

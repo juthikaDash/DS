@@ -37,7 +37,7 @@ Follow up: A linked list can be reversed either iteratively or recursively. Coul
 
  
 #include<iostream>
-#include<vector>
+
 
 using namespace std;
 struct ListNode {
