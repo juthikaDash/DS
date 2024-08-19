@@ -1,1 +1,6 @@
+*.json
+*.pdf
+*.exe
+*a.out
+*.DS_Store
 
