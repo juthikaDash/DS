@@ -29,7 +29,7 @@ n == matrix.length == matrix[i].length
 using namespace std;
 class Solution {
 public:
-    void rotate(vector<vector<int>>& matrix) {
+    void rotate(vector<vector<int> >& matrix) {
         int l = 0;
         int r = matrix.size() -1;
         while(l<r){
@@ -41,7 +41,7 @@ public:
                 //move bottom left -> top left
                 matrix[top][l+i] = matrix[bottom-i][l];
                 //bootom right -> bottom left
-                matrix[bottom-1][l] = matrix[bottom][r -i];
+                matrix[bottom-i][l] = matrix[bottom][r -i];
                 //top right -> bottom right
                 matrix[bottom][r-i] = matrix[top+i][r];
                 //top left -> top right
