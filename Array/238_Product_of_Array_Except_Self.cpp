@@ -6,7 +6,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-      std::vector<int> res(size(nums),1);
+      std::vector<int> res(nums.size(),1);
 
         int n = nums.size();
         if(n==0){ return res;}  
