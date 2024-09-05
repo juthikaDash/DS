@@ -7,7 +7,7 @@ using namespace std;
 class Solution {
 public:
     // Mapping of numeric values to their corresponding English words
-    vector<pair<int, string>> numberToWordsMap = {
+    vector<pair<int, string>> numberToWordsMap = { 
         {1000000000, "Billion"}, 
         {1000000, "Million"}, 
         {1000, "Thousand"},
