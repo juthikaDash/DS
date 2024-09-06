@@ -11,6 +11,7 @@ public:
         if(nums[i-1]>nums[i]){
             cnt++;
         }
+    }
     if(nums[n-1]>nums[0]){
         cnt++;
     }
