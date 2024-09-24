@@ -35,15 +35,17 @@ words[i] consists of only lowercase English letters.
 */
 #include<iostream>
 #include<vector>
-#inlcude<string>
+#include<string>
+using namespace std;
+
 class Solution {
 public:
     string alienOrder(vector<string>& words) {
         
-        string alienOrder(vector<string>& words) {
         set<pair<char, char>> st;
         unordered_set<char> ch;
         vector<int> in(256);
+
         queue<char> q;
         string res;
         for (auto a : words) ch.insert(a.begin(), a.end());

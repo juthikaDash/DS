@@ -1,0 +1,23 @@
+C++11:
+1. Introduced major new features like auto, lambda expressions, range-based for loops, smart pointers, move semantics, and threading support
+2. Considered a significant update that modernized C++
+
+C++14:
+1. Smaller update focused on bug fixes and small improvements to C++11 features
+2. Added generic lambdas, return type deduction for functions, relaxed constexpr restrictions
+3. Improved std::make_shared and added std::make_unique
+
+C++17:
+1. Larger update with more substantial new features
+2. Added structured bindings, if constexpr, inline variables, fold expressions
+3. Introduced std::optional, std::variant, std::any
+4. Added parallel algorithms to the STL
+5. Included filesystem library
+
+C++20:
+1. Major update with significant new features
+2. Introduced concepts for template constraints
+3. Added coroutines for asynchronous programming
+4. Included ranges library for composable algorithms
+5. Added modules to improve compilation times and encapsulation
+6. Introduced the spaceship operator <=> for three-way comparisons

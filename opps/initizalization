@@ -1,0 +1,90 @@
+Components of STL
+C++ STL provides various components to make programming easier and more efficient. These components can be divided into four categories:
+1.	Containers
+2.	Iterators
+3.	Algorithms
+4.	Functors
+STL Containers
+The STL containers are the template classes to implement useful data structures such as dynamic arrays, hashmaps, linked lists, trees, etc. These containers allow programmers to store and manipulate data.
+The STL containers can also be divided into 4 parts which are:
+1.	Sequential Containers
+2.	Container Adapters
+3.	Associative Containers
+4.	Unordered Containers
+1. Sequential Containers
+The sequential containers implement the data structures with sequential access. These include:
+•	Vector
+•	List
+•	Deque
+•	Array
+•	Forward List
+2. Container Adapters
+The container adapters implement data structures like queues, stacks, etc by providing different interfaces for sequential containers. These include:
+•	Stack
+•	Queue
+•	Priority Queue
+3. Associative Containers
+The associative containers are used to store ordered data that can be quickly searched using their key value. These include:
+•	Set
+•	Multiset
+•	Map
+•	Multimap
+4. Unordered Containers
+The unordered containers are similar to associative containers except that they don’t store sorted data but still provide quick search time using key-value pairs. They are:
+•	Unordered Set
+•	Unordered Multiset
+•	Unordered Map
+•	Unordered Multimap
+
+
+vector: 
+vector<int> v1 = { 1, 2, 3, 4, 5 };
+ // creating std::list object using initializer list
+list<int> l1 = { 1, 5, 9, 1, 4, 6 };
+// creating a deque
+deque<int> d = { 1, 2, 3, 4, 5 };
+//Stack
+stack<int> s;
+
+for (int i = 1; i <= 5; i++) {
+    s.push(i);
+}
+
+s.push(6);
+
+// creating queue
+queue<int> q;
+
+// pushing elements
+for (int i = 1; i <= 5; i++) {
+    q.push(i);
+}
+q.push(6)
+
+// creating vector
+    vector<int> v = { 1, 5, 3, 4, 2 };
+    // creating set using vector v
+    set<int> s(v.begin(), v.end());
+    
+// creating std::map object
+    map<int, string> m;
+
+    // adding elements
+    m[1] = "ONE";
+    m[2] = "TWO";
+    m[3] = "THREE";
+
+// creating an unordered_set object
+    unordered_set<int> us = { 1, 5, 2, 3, 4 };
+
+// creating unordered_map object
+    unordered_map<int, string> umap;
+
+    // inserting key value pairs
+    umap[1] = "ONE";
+    umap[2] = "TWO";
+    umap[3] = "THREE";
+    umap.insert({ 4, "FOUR" });
+
+//Array
+int arr[] = { 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };
