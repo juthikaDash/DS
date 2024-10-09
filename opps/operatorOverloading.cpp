@@ -9,7 +9,7 @@ class counter{
     counter(int x){
        this->count = x;
     }
-    counter& operator++(){ //prefix
+    counter& operator++(){ //postfix
         count++;
         return *this;
 
