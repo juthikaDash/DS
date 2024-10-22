@@ -43,6 +43,7 @@ public:
                 rooms +=1;
             }
             else{
+                
                 ++j;
             }
 
